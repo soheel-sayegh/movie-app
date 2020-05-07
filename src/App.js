@@ -31,7 +31,7 @@ export class App extends Component {
   };
 
   componentDidMount() {
-    const api = 'http://www.omdbapi.com/?i=tt3896198&apikey=2ffd923b';
+    const api = 'https://www.omdbapi.com/?i=tt3896198&apikey=2ffd923b';
 
     axios.post(api + '&s=' + this.state.serach).then((data) => {
       if (data) {
