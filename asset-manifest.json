@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/movie-app/static/css/main.5ef7d8eb.chunk.css",
+    "main.js": "/movie-app/static/js/main.276aacc2.chunk.js",
+    "main.js.map": "/movie-app/static/js/main.276aacc2.chunk.js.map",
+    "runtime-main.js": "/movie-app/static/js/runtime-main.6de98e8b.js",
+    "runtime-main.js.map": "/movie-app/static/js/runtime-main.6de98e8b.js.map",
+    "static/js/2.607174b7.chunk.js": "/movie-app/static/js/2.607174b7.chunk.js",
+    "static/js/2.607174b7.chunk.js.map": "/movie-app/static/js/2.607174b7.chunk.js.map",
+    "index.html": "/movie-app/index.html",
+    "precache-manifest.88a8f31ce5c35b0be788af30a5433aac.js": "/movie-app/precache-manifest.88a8f31ce5c35b0be788af30a5433aac.js",
+    "service-worker.js": "/movie-app/service-worker.js",
+    "static/css/main.5ef7d8eb.chunk.css.map": "/movie-app/static/css/main.5ef7d8eb.chunk.css.map",
+    "static/js/2.607174b7.chunk.js.LICENSE.txt": "/movie-app/static/js/2.607174b7.chunk.js.LICENSE.txt",
+    "static/media/kisspng-photographic-film-movie-camera-cinema-website-and-mobile-application-development-service-5d3fc9250ede49.9926975015644613490609.png": "/movie-app/static/media/kisspng-photographic-film-movie-camera-cinema-website-and-mobile-application-development-service-5d3fc9250ede49.9926975015644613490609.b7ca6374.png",
+    "static/media/App.css": "/movie-app/static/media/movie.f1c75c5e.jpg"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6de98e8b.js",
+    "static/js/2.607174b7.chunk.js",
+    "static/css/main.5ef7d8eb.chunk.css",
+    "static/js/main.276aacc2.chunk.js"
+  ]
+}
