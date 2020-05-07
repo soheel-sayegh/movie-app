@@ -30,9 +30,7 @@ ul li span {
   background: red;
   color: white;
 }
-.btnDiv {
-  display: block;
-}
+
 @media only screen and (max-width: 990px) {
   .MovieImg {
     height: 100%;
