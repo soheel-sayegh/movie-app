@@ -77,11 +77,13 @@ export class Deatails extends Component {
                   {this.state.movieDeatils.Plot}
                 </p>
               </div>
-              <a href="https://soheel-sayegh.github.io/movie-app/">
-                <button className="btn btn-danger ">
-                  <i className="fas fa-arrow-left"></i> Back{' '}
-                </button>
-              </a>
+              <div>
+                <a href="https://soheel-sayegh.github.io/movie-app/">
+                  <button className="btn btn-danger ">
+                    <i className="fas fa-arrow-left"></i> Back{' '}
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         ) : (
