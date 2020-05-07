@@ -85,7 +85,7 @@ export class Deatails extends Component {
             </div>
           </div>
         ) : (
-          <Redirect to="/movie-app" />
+          <Redirect to="https://soheel-sayegh.github.io/movie-app" />
         )}
       </div>
     );
