@@ -1,0 +1,139 @@
+body {
+  background: url(./movie.jpg);
+  background-size: cover;
+  background-attachment: fixed;
+  background-position: center;
+}
+.wrapper {
+  margin: auto;
+  background: rgba(0, 0, 0, 0.6);
+  max-width: 550px;
+  width: 100%;
+  padding: 10px;
+  display: flex;
+  justify-content: space-between;
+  border-radius: 5px;
+}
+
+.wrapper .input {
+  width: 85%;
+  padding: 6px 7px;
+  border: none;
+  border-radius: 5px;
+}
+
+.searchbtn {
+  box-shadow: inset 2px 4px 6px -2px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(2, 2, 2, 0.9);
+  background: red;
+  width: 14%;
+  border-radius: 5px;
+  position: relative;
+  cursor: pointer;
+}
+
+.searchbtn .fas {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 18px;
+}
+.title {
+  background: black;
+  width: 100%;
+  height: 70px;
+}
+.logoDiv {
+  box-shadow: inset 2px 4px 6px -2px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(177, 72, 72, 0.9);
+  border-radius: 10px;
+  background: red;
+  width: 190px;
+  margin: 8px auto;
+}
+.logo {
+  height: 50px;
+  width: 50px;
+}
+.logotitle {
+  font-weight: bold;
+  font-size: 25px;
+  margin-bottom: 0;
+  color: black;
+  margin-top: 7px;
+}
+.card {
+  width: 100%;
+  border: 1px solid black;
+}
+.card-body {
+  background: black;
+  color: wheat;
+  padding: 10px;
+}
+.card-img-top {
+  width: 100%;
+  height: 280px;
+}
+.card-body p {
+  color: #696969;
+}
+.card-title {
+  font-size: 16px;
+  height: 39px;
+}
+.card-body h5 {
+  text-align: center;
+  font-weight: bold;
+  color: #ffffff;
+}
+.btn-block {
+  box-shadow: inset 2px 4px 6px -2px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(177, 72, 72, 0.9);
+  border-radius: 10px;
+  background: red;
+  color: white;
+  font-weight: bold;
+}
+.noResult {
+  color: rgb(168, 168, 168);
+  text-align: center;
+  margin: auto;
+  background-color: rgba(0, 0, 0, 0.6);
+  padding: 40px;
+}
+.noResult .sad {
+  font-size: 170px;
+  margin-bottom: 10px;
+}
+@media only screen and (max-width: 575px) {
+  .card {
+    width: 100%;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: row;
+  }
+  .card-body {
+    background: black;
+    color: wheat;
+    padding: 10px;
+  }
+  .card-img-top {
+    width: 100px;
+    height: 150px;
+  }
+  .card-title {
+    font-size: 16px;
+    height: 39px;
+  }
+  .card-body h5 {
+    text-align: center;
+    font-weight: bold;
+    color: #ffffff;
+    margin-bottom: 0;
+  }
+  .card-body p {
+    color: #696969;
+  }
+}

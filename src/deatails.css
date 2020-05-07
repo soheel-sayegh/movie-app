@@ -1,0 +1,59 @@
+.container {
+  padding: 20px;
+  background-color: #131212f5;
+}
+.imgD {
+  height: 200px;
+}
+.DTitle {
+  font-weight: bold;
+  color: white;
+}
+.MovieImg {
+  height: 100%;
+  width: 53%;
+}
+.Plot {
+  padding: 10px;
+}
+ul li {
+  color: gray;
+}
+ul li span {
+  font-weight: bold;
+  color: white;
+}
+.btn-danger {
+  box-shadow: inset 2px 4px 6px -2px rgba(255, 255, 255, 0.6),
+    0px 4px 4px rgba(177, 72, 72, 0.9);
+  border-radius: 10px;
+  background: red;
+  color: white;
+}
+@media only screen and (max-width: 990px) {
+  .MovieImg {
+    height: 100%;
+    width: 80%;
+  }
+}
+@media only screen and (max-width: 500px) {
+  .DTitle {
+    font-weight: bold;
+    color: white;
+    font-size: 20px;
+    margin-left: 5px;
+  }
+  ul li {
+    font-size: 10px;
+  }
+  .MovieImg {
+    height: 100%;
+    width: 100%;
+  }
+  .imgD {
+    height: 168px;
+  }
+  .polt {
+    margin-top: 0;
+  }
+}
